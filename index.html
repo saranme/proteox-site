@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ProteoX – Uncovering Protein Signatures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="logo">
+        <svg viewBox="0 0 32 32" class="logo-icon" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="12" class="logo-orbit" stroke-width="2" fill="none" />
+          <circle cx="16" cy="16" r="4" class="logo-core" />
+          <circle cx="16" cy="6" r="2.5" class="logo-node" />
+          <circle cx="16" cy="26" r="2.5" class="logo-node" />
+          <circle cx="6" cy="16" r="2.5" class="logo-node" />
+          <circle cx="26" cy="16" r="2.5" class="logo-node" />
+        </svg>
+        <span class="logo-text">ProteoX</span>
+      </div>
+      <div class="nav-links">
+        <a href="#team">Team</a>
+        <a href="#research">Research</a>
+        <a href="#approach">Approach</a>
+        <a href="#technology">Technology</a>
+        <a href="#collaborate">Collaborate</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="top">
+    <!-- gradient background + circles -->
+    <div class="hero-bg"></div>
+    <div class="hero-circle hero-circle-1"></div>
+    <div class="hero-circle hero-circle-2"></div>
+    <div class="hero-circle hero-circle-3"></div>
+
+    <!-- protein pattern -->
+    <div class="protein-pattern">
+      <svg class="protein-pattern-svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <pattern id="protein-pattern-hero" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+            <circle cx="20" cy="20" r="8" fill="currentColor" />
+            <circle cx="60" cy="40" r="6" fill="currentColor" />
+            <circle cx="100" cy="20" r="8" fill="currentColor" />
+            <circle cx="40" cy="80" r="6" fill="currentColor" />
+            <circle cx="80" cy="100" r="8" fill="currentColor" />
+            <line x1="28" y1="20" x2="52" y2="38" stroke="currentColor" stroke-width="2" />
+            <line x1="68" y1="38" x2="92" y2="22" stroke="currentColor" stroke-width="2" />
+            <line x1="58" y1="46" x2="44" y2="74" stroke="currentColor" stroke-width="2" />
+            <line x1="46" y1="82" x2="72" y2="98" stroke="currentColor" stroke-width="2" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#protein-pattern-hero)" />
+      </svg>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-text fade-in-up">
+        <div class="hero-heading-block">
+          <h1 class="hero-line">Uncovering</h1>
+          <h1 class="hero-line hero-line-gradient">Protein Signatures</h1>
+          <h1 class="hero-line hero-line-last">of Health and Disease</h1>
+        </div>
+
+        <p class="hero-subtitle">
+          We are a research-driven computational proteomics company focused on understanding human biology
+          through large-scale protein profiling.
+        </p>
+
+        <div class="hero-scroll">
+          <a href="#about" class="hero-chevron" aria-label="Scroll to about section">
+            <svg viewBox="0 0 24 24" class="chevron-icon" aria-hidden="true">
+              <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <div class="section-intro fade-in-up">
+        <div class="section-tagline-wrap">
+          <div class="section-line"></div>
+          <span class="section-tagline">About Us</span>
+        </div>
+        <h2 class="section-title">
+          Bridging Data and Biology
+        </h2>
+      </div>
+
+      <div class="grid-2 fade-in-up">
+        <p class="section-text">
+          Our work combines machine learning, statistical modelling, and multi-omics data integration to
+          uncover biological pathways, protein networks, and molecular signatures associated with health,
+          aging, and disease.
+        </p>
+        <p class="section-text">
+          We collaborate with partners to analyze high-quality proteomic datasets, generate new scientific
+          insights, and prioritize candidates for further mechanistic investigation using emerging proteomics
+          technologies.
+        </p>
+      </div>
+
+      <div class="section-divider fade-in-up">
+        <p class="section-highlight">
+          We develop computational tools to analyze large proteomic datasets and reveal biological patterns
+          that are difficult to detect with traditional methods.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="section">
+    <div class="container">
+      <div class="section-intro fade-in-up">
+        <div class="section-tagline-wrap">
+          <div class="section-line"></div>
+          <span class="section-tagline">Our Team</span>
+        </div>
+        <h2 class="section-title">Who We Are</h2>
+      </div>
+
+      <div class="team-list">
+        <!-- Pablo -->
+        <article class="team-member fade-in-up">
+          <div class="team-photo-wrap">
+            <div class="team-photo team-photo-bg">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69231a05aed8b8a83852fc75/77d42fb15_p.jpg"
+                alt="Pablo Martin"
+              />
+            </div>
+          </div>
+          <div class="team-content">
+            <header class="team-header">
+              <div>
+                <h3 class="team-name">Pablo Martin</h3>
+                <p class="team-role">Chief Executive Officer</p>
+              </div>
+              <a
+                href="https://www.linkedin.com/in/pablomartinbaniandres/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-link"
+                aria-label="Pablo Martin on LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+                  <path
+                    d="M4.98 3.5A2 2 0 1 1 1 3.5a2 2 0 0 1 3.98 0Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 8.25v12.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M9 8.25h3.36v1.87h.05c.47-.9 1.62-1.85 3.33-1.85 3.02 0 4.26 1.9 4.26 4.9V20.75"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9 8.25v12.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </header>
+            <p class="team-bio">
+              Pablo is a research scientist with a DPhil in Chemical Biology from the University of Oxford,
+              specializing in proteomics, nanopore sensing, and single-molecule biophysics. His work has
+              advanced emerging protein sequencing technologies, integrating protein chemistry, nanopore
+              engineering, and molecular diagnostics. He has authored peer-reviewed publications and
+              contributed to patented methods for nanopore-based protein characterization.
+            </p>
+          </div>
+        </article>
+
+        <!-- Giacomo -->
+        <article class="team-member fade-in-up">
+          <div class="team-photo-wrap">
+            <div class="team-photo">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69231a05aed8b8a83852fc75/13d8f0c67_jack.jpg"
+                alt="Giacomo Mazzotti"
+              />
+            </div>
+          </div>
+          <div class="team-content">
+            <header class="team-header">
+              <div>
+                <h3 class="team-name">Giacomo Mazzotti</h3>
+                <p class="team-role">Chief Scientific Officer</p>
+              </div>
+              <a
+                href="https://www.linkedin.com/in/giacomo-mazzotti-phd-a6404523b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-link"
+                aria-label="Giacomo Mazzotti on LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+                  <path
+                    d="M4.98 3.5A2 2 0 1 1 1 3.5a2 2 0 0 1 3.98 0Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 8.25v12.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M9 8.25h3.36v1.87h.05c.47-.9 1.62-1.85 3.33-1.85 3.02 0 4.26 1.9 4.26 4.9V20.75"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9 8.25v12.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </header>
+            <p class="team-bio">
+              Giacomo is a research scientist with a Chemical Biology PhD from the University of Oxford. His
+              deep expertise in nucleic acid chemistry and nanotechnologies has enabled the creation of gene
+              regulation tools and synthetic biology engineering. He also has extensive experience in protein
+              biochemistry, enzymology, and medicinal chemistry. He brings a highly multidisciplinary
+              approach bridging chemistry, biology, and materials science to engineer complex biological and
+              chemical systems.
+            </p>
+          </div>
+        </article>
+
+        <!-- Sara -->
+        <article class="team-member fade-in-up">
+          <div class="team-photo-wrap">
+            <div class="team-photo">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69231a05aed8b8a83852fc75/977a63bcd_sara.jpg"
+                alt="Sara Navarro"
+              />
+            </div>
+          </div>
+          <div class="team-content">
+            <header class="team-header">
+              <div>
+                <h3 class="team-name">Sara Navarro</h3>
+                <p class="team-role">Chief Technology Officer</p>
+              </div>
+              <a
+                href="https://www.linkedin.com/in/saranavarromedina/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-link"
+                aria-label="Sara Navarro on LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+                  <path
+                    d="M4.98 3.5A2 2 0 1 1 1 3.5a2 2 0 0 1 3.98 0Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 8.25v12.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M9 8.25h3.36v1.87h.05c.47-.9 1.62-1.85 3.33-1.85 3.02 0 4.26 1.9 4.26 4.9V20.75"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9 8.25v12.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </header>
+            <p class="team-bio">
+              Sara is a data scientist specializing in machine learning, advanced analytics, and large-scale
+              data engineering. With dual master's degrees in Data Science and Machine Learning and a prior
+              background in business strategy, Sara combines technical depth with strategic understanding. Her
+              work focuses on developing robust analytical frameworks, AI models, and scalable data
+              architectures that enable complex decision-making and high-value insights.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research" class="section">
+    <div class="container">
+      <div class="section-intro fade-in-up">
+        <div class="section-tagline-wrap">
+          <div class="section-line"></div>
+          <span class="section-tagline">Research Focus</span>
+        </div>
+        <h2 class="section-title">Our Research</h2>
+      </div>
+
+      <p class="section-text-large fade-in-up">
+        Our research focuses on:
+      </p>
+
+      <div class="research-grid">
+        <div class="research-card fade-in-up">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+              <path
+                d="M6 18h8a4 4 0 0 0 4-4h-2a2 2 0 0 1-2 2H6a2 2 0 0 0-2 2v2h14"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6 14V4h4v5h2V3"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <p>Protein biomarker discovery using large-scale population datasets</p>
+        </div>
+
+        <div class="research-card fade-in-up">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+              <circle cx="6" cy="6" r="2" stroke="currentColor" stroke-width="2" />
+              <circle cx="18" cy="6" r="2" stroke="currentColor" stroke-width="2" />
+              <circle cx="6" cy="18" r="2" stroke="currentColor" stroke-width="2" />
+              <circle cx="18" cy="18" r="2" stroke="currentColor" stroke-width="2" />
+              <line x1="8" y1="6" x2="16" y2="6" stroke="currentColor" stroke-width="2" />
+              <line x1="6" y1="8" x2="6" y2="16" stroke="currentColor" stroke-width="2" />
+              <line x1="18" y1="8" x2="18" y2="16" stroke="currentColor" stroke-width="2" />
+              <line x1="8" y1="18" x2="16" y2="18" stroke="currentColor" stroke-width="2" />
+            </svg>
+          </div>
+          <p>Pathway and network analysis to understand mechanisms of aging, immunity, and disease</p>
+        </div>
+
+        <div class="research-card fade-in-up">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+              <ellipse cx="12" cy="5" rx="7" ry="3" stroke="currentColor" stroke-width="2" />
+              <path
+                d="M5 5v14c0 1.66 3.13 3 7 3s7-1.34 7-3V5"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M5 12c0 1.66 3.13 3 7 3s7-1.34 7-3"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <p>Integration of proteomics with clinical, lifestyle, and demographic data</p>
+        </div>
+
+        <div class="research-card fade-in-up">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+              <path
+                d="M9 3h6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M10 3v4.5L6 18a2 2 0 0 0 2 3h8a2 2 0 0 0 2-3l-4-10.5V3"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <p>Machine-learning models to identify protein signatures associated with physiological states</p>
+        </div>
+
+        <div class="research-card fade-in-up">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+              <circle cx="6" cy="6" r="2" stroke="currentColor" stroke-width="2" />
+              <circle cx="18" cy="6" r="2" stroke="currentColor" stroke-width="2" />
+              <circle cx="12" cy="18" r="2" stroke="currentColor" stroke-width="2" />
+              <line x1="7.5" y1="7.5" x2="11" y2="16" stroke="currentColor" stroke-width="2" />
+              <line x1="16.5" y1="7.5" x2="13" y2="16" stroke="currentColor" stroke-width="2" />
+            </svg>
+          </div>
+          <p>Cross-platform harmonization (Olink, SomaScan, mass spectrometry)</p>
+        </div>
+
+        <div class="research-card fade-in-up">
+          <div class="research-icon">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+              <path
+                d="M6 18h8a4 4 0 0 0 4-4h-2a2 2 0 0 1-2 2H6a2 2 0 0 0-2 2v2h14"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6 14V4h4v5h2V3"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <p>Prioritization of proteins and pathways for experimental follow-up</p>
+        </div>
+      </div>
+
+      <div class="section-subblock fade-in-up">
+        <h3 class="section-subtitle">Research Program</h3>
+        <p class="section-text">
+          Our research program explores:
+        </p>
+        <div class="pill-grid">
+          <div class="pill">Aging biology and resilience</div>
+          <div class="pill">Inflammation and immune system dynamics</div>
+          <div class="pill">Cardiometabolic health</div>
+          <div class="pill">Neurological and cognitive decline</div>
+          <div class="pill">Proteoforms and post-translational modifications</div>
+          <div class="pill">Molecular signatures of stress, metabolism, and recovery</div>
+        </div>
+      </div>
+
+      <p class="section-highlight fade-in-up">
+        Our goal is to expand scientific understanding of how circulating proteins reflect human biology
+        and to support deeper mechanistic research in collaboration with academic and industry partners.
+      </p>
+    </div>
+  </section>
+
+  <!-- Approach Section -->
+  <section id="approach" class="section section-dark">
+    <div class="container">
+      <div class="section-intro fade-in-up">
+        <div class="section-tagline-wrap">
+          <div class="section-line section-line-light"></div>
+          <span class="section-tagline section-tagline-light">Our Approach</span>
+        </div>
+        <h2 class="section-title section-title-light">
+          Computational Biology Meets Proteomics
+        </h2>
+        <p class="section-text-large section-text-light">
+          We combine computational biology with advanced proteomics to generate interpretable biological insights.
+        </p>
+      </div>
+
+      <div class="approach-grid">
+        <div class="approach-card fade-in-up">
+          <h3>Rigorous Analysis</h3>
+          <p>Statistical rigor and reproducible science at every step</p>
+        </div>
+        <div class="approach-card fade-in-up">
+          <h3>ML Pipelines</h3>
+          <p>Advanced machine-learning frameworks for pattern discovery</p>
+        </div>
+        <div class="approach-card fade-in-up">
+          <h3>Multi-Cohort</h3>
+          <p>Validation across diverse populations and platforms</p>
+        </div>
+        <div class="approach-card fade-in-up">
+          <h3>Open Resources</h3>
+          <p>Leveraging publicly available proteomic and multi-omics data</p>
+        </div>
+        <div class="approach-card fade-in-up">
+          <h3>Reproducibility</h3>
+          <p>Transparent methods and open scientific practices</p>
+        </div>
+        <div class="approach-card fade-in-up">
+          <h3>Collaboration</h3>
+          <p>Partnerships with labs and technology developers</p>
+        </div>
+      </div>
+
+      <div class="section-divider section-divider-dark fade-in-up">
+        <p class="section-highlight section-highlight-light">
+          We aim to bridge large-scale population proteomics with mechanistic biology.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology Section -->
+  <section id="technology" class="section tech-section">
+    <!-- decorative circles -->
+    <div class="hero-circle tech-circle-1"></div>
+    <div class="hero-circle tech-circle-2"></div>
+
+    <!-- protein pattern -->
+    <div class="protein-pattern tech-pattern">
+      <svg class="protein-pattern-svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <pattern id="protein-pattern-tech" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+            <circle cx="20" cy="20" r="8" fill="currentColor" />
+            <circle cx="60" cy="40" r="6" fill="currentColor" />
+            <circle cx="100" cy="20" r="8" fill="currentColor" />
+            <circle cx="40" cy="80" r="6" fill="currentColor" />
+            <circle cx="80" cy="100" r="8" fill="currentColor" />
+            <line x1="28" y1="20" x2="52" y2="38" stroke="currentColor" stroke-width="2" />
+            <line x1="68" y1="38" x2="92" y2="22" stroke="currentColor" stroke-width="2" />
+            <line x1="58" y1="46" x2="44" y2="74" stroke="currentColor" stroke-width="2" />
+            <line x1="46" y1="82" x2="72" y2="98" stroke="currentColor" stroke-width="2" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#protein-pattern-tech)" />
+      </svg>
+    </div>
+
+    <div class="container tech-inner fade-in-up">
+      <div class="section-intro">
+        <div class="section-tagline-wrap">
+          <div class="section-line"></div>
+          <span class="section-tagline">Technology &amp; Methods</span>
+        </div>
+        <h2 class="section-title">Our Scientific Stack</h2>
+      </div>
+
+      <p class="section-text-large">
+        We are committed to open, rigorous, and transparent scientific methods:
+      </p>
+
+      <div class="tech-list">
+        <div class="tech-item fade-in-left">
+          <span class="tech-dot"></span>
+          <p>Large-scale proteomic datasets (antibody- and aptamer-based platforms)</p>
+        </div>
+        <div class="tech-item fade-in-left">
+          <span class="tech-dot"></span>
+          <p>Public multi-omics resources</p>
+        </div>
+        <div class="tech-item fade-in-left">
+          <span class="tech-dot"></span>
+          <p>Mass spectrometry–based datasets</p>
+        </div>
+        <div class="tech-item fade-in-left">
+          <span class="tech-dot"></span>
+          <p>Advanced machine-learning models</p>
+        </div>
+        <div class="tech-item fade-in-left">
+          <span class="tech-dot"></span>
+          <p>Statistical genetics and causal inference</p>
+        </div>
+        <div class="tech-item fade-in-left">
+          <span class="tech-dot"></span>
+          <p>Pathway enrichment and network inference</p>
+        </div>
+        <div class="tech-item fade-in-left">
+          <span class="tech-dot"></span>
+          <p>Cross-platform data harmonization</p>
+        </div>
+      </div>
+
+      <div class="tech-highlight fade-in-up">
+        <p>
+          We specialize in extracting biological structure from high-dimensional proteomic matrices,
+          identifying coherent molecular signatures across diverse cohorts, and mapping these to
+          mechanistic pathways using multi-omics integration frameworks.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collaborate Section -->
+  <section id="collaborate" class="section collaborate-section">
+    <div class="container">
+      <div class="section-intro fade-in-up">
+        <div class="section-tagline-wrap">
+          <div class="section-line section-line-light"></div>
+          <span class="section-tagline section-tagline-light">Collaborate</span>
+        </div>
+        <h2 class="section-title section-title-light">Work With Us</h2>
+        <p class="section-text-large section-text-light">
+          We collaborate with academic groups, biobanks, and technology developers.
+        </p>
+      </div>
+
+      <div class="collaborate-grid">
+        <div class="collaborate-item fade-in-up">
+          <div class="collaborate-bullet">
+            <span></span>
+          </div>
+          <p>Analyze proteomic data</p>
+        </div>
+        <div class="collaborate-item fade-in-up">
+          <div class="collaborate-bullet">
+            <span></span>
+          </div>
+          <p>Interpret mechanistic findings</p>
+        </div>
+        <div class="collaborate-item fade-in-up">
+          <div class="collaborate-bullet">
+            <span></span>
+          </div>
+          <p>Evaluate new protein measurement technologies</p>
+        </div>
+        <div class="collaborate-item fade-in-up">
+          <div class="collaborate-bullet">
+            <span></span>
+          </div>
+          <p>Explore biological variation across populations</p>
+        </div>
+        <div class="collaborate-item fade-in-up">
+          <div class="collaborate-bullet">
+            <span></span>
+          </div>
+          <p>Support hypothesis generation for downstream studies</p>
+        </div>
+      </div>
+
+      <div class="collaborate-cta fade-in-up">
+        <p class="section-text-large section-text-light">
+          We welcome inquiries from researchers interested in proteomics, multi-omics integration, or computational biology.
+        </p>
+        <a href="mailto:thisisox3@gmail.com" class="btn-primary">
+          <span class="btn-icon">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true" fill="none">
+              <rect
+                x="3"
+                y="5"
+                width="18"
+                height="14"
+                rx="2"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <polyline
+                points="4,7 12,12.5 20,7"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span>Get in Touch</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <svg viewBox="0 0 32 32" class="logo-icon" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="12" class="logo-orbit-footer" stroke-width="2" fill="none" />
+          <circle cx="16" cy="16" r="4" class="logo-core-footer" />
+          <circle cx="16" cy="6" r="2.5" class="logo-node-footer" />
+          <circle cx="16" cy="26" r="2.5" class="logo-node-footer" />
+          <circle cx="6" cy="16" r="2.5" class="logo-node-footer" />
+          <circle cx="26" cy="16" r="2.5" class="logo-node-footer" />
+        </svg>
+        <span class="logo-text">ProteoX</span>
+      </div>
+      <div class="footer-copy">
+        © Liquid Mortirolo SRL. 2025
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
